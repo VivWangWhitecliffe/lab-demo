@@ -3,3 +3,6 @@ def test_incorrect():
 
 def test_correct():
     assert 1+1 == 2
+
+def test_incorrectwo():
+    assert 1-1 == 2
