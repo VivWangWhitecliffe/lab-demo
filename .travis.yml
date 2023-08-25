@@ -1,0 +1,14 @@
+# Specify the programming language for the build environment
+language: python
+
+# Define the Python versions to be used for testing
+python:
+  - "3.8"
+
+# Install dependencies before running tests
+install:
+  - pip install -r requirements.txt
+
+# Define the test script to be executed
+script:
+  - pytest
