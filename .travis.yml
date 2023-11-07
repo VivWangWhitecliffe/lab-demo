@@ -6,8 +6,8 @@ python:
   - "3.8"
 
 # Install dependencies before running tests
-install:
-  - pip install -r requirements.txt
+# install:
+  # - pip install -r requirements.txt
 
 # Define the test script to be executed
 script:

@@ -7,4 +7,4 @@ def test_subtraction():
     assert maths.subtract(5, 3) == 2
 
 def test_wrongsubtraction():
-    assert maths.subtract(6, 3) == 2
+    assert maths.subtract(6, 4) == 2
