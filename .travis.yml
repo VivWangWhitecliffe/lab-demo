@@ -5,7 +5,7 @@ language: python
 python:
   - "3.8"
 
-# Install dependencies before running tests
+# Install dependencies before running tests (if needed)
 # install:
   # - pip install -r requirements.txt
 
