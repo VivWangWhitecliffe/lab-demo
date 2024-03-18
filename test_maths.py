@@ -8,3 +8,9 @@ def test_subtraction():
 
 def test_wrongsubtraction():
     assert maths.subtract(6, 4) == 2
+
+def test_wrongmultiply():
+    assert maths.mutiply(6, 4) == 2
+
+def test_mutiply():
+    assert maths.mutiply(6, 4) == 24
