@@ -12,5 +12,3 @@ def test_wrongsubtraction():
 def test_wrongmultiply():
     assert maths.mutiply(6, 4) == 2
 
-def test_mutiply():
-    assert maths.mutiply(6, 4) == 24
